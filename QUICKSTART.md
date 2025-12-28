@@ -13,11 +13,12 @@
 
 ### 步骤
 
-1. **克隆仓库**
+1. **克隆仓库**（如果还未克隆）
 ```bash
-git clone https://github.com/shx-1/2025-OpenSODA.git
+git clone <repository-url>
 cd 2025-OpenSODA
 ```
+或者直接进入已克隆的目录
 
 2. **安装依赖**
 ```bash
