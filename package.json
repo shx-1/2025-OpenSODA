@@ -1,0 +1,25 @@
+{
+  "name": "opensoda-2025-presentation",
+  "version": "1.0.0",
+  "description": "2025第三届OpenSODA大赛初赛PPT资料",
+  "scripts": {
+    "preview": "marp presentation.md --preview",
+    "build:pdf": "marp presentation.md --pdf --allow-local-files -o output/presentation.pdf",
+    "build:pptx": "marp presentation.md --pptx --allow-local-files -o output/presentation.pptx",
+    "build:html": "marp presentation.md --html --allow-local-files -o output/presentation.html",
+    "build:all": "npm run build:pdf && npm run build:pptx && npm run build:html",
+    "setup": "mkdir -p output"
+  },
+  "keywords": [
+    "OpenSODA",
+    "presentation",
+    "marp",
+    "开源",
+    "open-source"
+  ],
+  "author": "OpenSODA Competition",
+  "license": "MIT",
+  "devDependencies": {
+    "@marp-team/marp-cli": "^3.4.0"
+  }
+}
